@@ -30,16 +30,79 @@ header{
 
 .container-header{
     background-color: #F8F200;
-    height: 350px;
-    width: 590px;
+    height: 21.8em;
+    width: 36.8em;
     border-radius: 5em 0 5em 0;
 }
 
 .container-header h1{
     color: #000;
-    font-family: Roboto;
+    font-family: Caprasimo; 
     text-align: center;
     font-size: 3.8rem;
+    font-weight: 600;
+    padding: 1.5em 0 0 0;
+}
+
+.container-header a{
+    color: #F8F200;
+    text-decoration: none;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
+
+}
+
+.headerbtn{
+    margin-top: 3.5em;
+    margin-left: 4.8em;
+    background-color: #000;
+    padding: 19px 50px;
+}
+
+.main{
+    padding: 4.5em 0 0 20em;
+}
+
+.main h2{
+    color: #000;
+    font-family: Caprasimo;
+    font-size: 62px;
+    font-weight: 500;
+}
+
+.sektion-main{
+    max-width: 57.8em;
+}
+
+.main p{
+    padding: 2em 0 0 0;
+    color: #52BEDC;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2rem;
+    max-height: 125px;
+}
+
+.photo-main{
+    display: flex;
+    flex-direction: column  ;
+    max-width: 40em;
+}
+
+.photo-main img{
+    padding: 2em 0 0 0;
+}
+
+.glavn{
+    margin-left: 41em;
+    position: absolute;
+}
+
+.prefoter{
+    background-image: url(/img/22\ 1.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 884px;
 }
