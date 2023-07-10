@@ -1,0 +1,45 @@
+header{
+    background-image: url(/img/11\ \(1\).jpg);
+    background-repeat: no-repeat;
+}
+
+.logo{
+    position: absolute;
+    padding: 0 0 0 10em;
+}
+
+.nav{
+    max-width: 110em;
+    padding: 1.5em 0 0 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar li{
+    flex-basis: 5em;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-end;
+    padding: 34em 20em 0 0;
+}
+
+.container-header{
+    background-color: #F8F200;
+    height: 350px;
+    width: 590px;
+    border-radius: 5em 0 5em 0;
+}
+
+.container-header h1{
+    color: #000;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 400;
+}
