@@ -47,7 +47,7 @@ header{
 .container-header a{
     color: #F8F200;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: 700;
 
@@ -57,7 +57,7 @@ header{
     margin-top: 3.5em;
     margin-left: 4.8em;
     background-color: #000;
-    padding: 19px 50px;
+    padding: 1.2em 3em;
 }
 
 .main{
@@ -67,7 +67,7 @@ header{
 .main h2{
     color: #000;
     font-family: Caprasimo;
-    font-size: 62px;
+    font-size: 3.8rem;
     font-weight: 500;
 }
 
@@ -79,10 +79,10 @@ header{
     padding: 2em 0 0 0;
     color: #52BEDC;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 700;
     line-height: 2rem;
-    max-height: 125px;
+    max-height: 7.8em;
 }
 
 .photo-main{
@@ -104,5 +104,181 @@ header{
     background-image: url(/img/22\ 1.png);
     background-repeat: no-repeat;
     background-color: #000;
-    height: 884px;
+    color: white;
+    height: 55.2em;
 }
+
+.playandwin{
+    display: flex;
+    align-items: end;
+    padding: 4.5em 0 0 20em;
+    gap: 1.5em;
+}
+
+.playandwin h1{
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+
+.infoSale{
+    padding: 2em 0 0 20em;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2.1em;
+    max-width: 50em;
+}
+
+.container-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    max-width: 28.7em;
+    padding: 6em 0 0 20em;
+    
+}
+
+.container-login input{
+    border: none;
+    border-bottom: 1px solid #777;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: normal;
+    padding: 1em;
+}
+
+  
+  .form-attach__wrapper {
+    position: relative;
+    border: 2px dashed #777;
+    border-radius: 0.375rem;
+    min-height: 50px;
+  }
+
+  .form-attach__wrapper input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .form-attach__description {
+    text-align: center;
+    padding: 4rem 0.5rem;
+    color: #757575;
+  }
+  
+  .form-attach__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-attach__item {
+    flex: 0 0 25%;
+    overflow: hidden;
+    flex: 0 1 calc((100% / 4) - 0.5rem);
+    margin: 0.25rem;
+    font-size: 0.75rem;
+    border: 1px solid #eee;
+    padding: 1.625rem 0.25rem;
+    border-radius: 0.25rem;
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-attach__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #eee;
+  }
+  
+  .form-attach__name {
+    margin-top: auto;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    color: #757575;
+    text-align: center;
+  }
+  
+  .form-attach__size {
+    position: absolute;
+    padding: 3px 6px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .form-attach__link {
+    position: absolute;
+    padding: 0 .375rem 0.5rem;
+    color: inherit;
+    cursor: pointer;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+  }
+  
+  .text-sm {
+    font-size: 0.75rem;
+  }
+
+  .form-group{
+    margin-top: 2em;
+  }
+
+  .consol{
+    position: absolute;
+    display: flex;
+    margin-left: 26.8em;
+  }
+
+  .button-feedback{
+    margin-top: 2em;
+  }
+
+  .button-feedback button{
+    height: 59px;
+    padding: 15px 50px;
+    align-items: center;
+    background: #F8F200;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .fedback-btn:hover {background-color: #3e878e}
+
+  .fedback-btn:active {
+    background-color: #3e878e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .chekbox{
+    margin-top: 35px;
+  }
+  
+  .chekbox label{
+    font-size: 12px;
+    font-weight: 300;
+  }
