@@ -340,9 +340,61 @@ header{
     background-image: url(/img/bg2.jpg);
     background-repeat: no-repeat;
     height: 45em;
+    background-color: #000;
   }
 
   .buy_cyber{
-    display: flex;
-    justify-content: center;
+    color: white;
+    float: right;
+    padding: 4.4em 20em 0 0;
+    max-width: 35em;
+
+  }
+
+  .buy_cyber h1{
+    font-size: 4rem;
+    font-weight: 400;
+  }
+
+  .buy_cyber p{
+    padding: 1.2em 0 0 0;
+    color: #52BEDC;
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+  
+  .group-disk{
+    padding: 1.2em 0 0 0;
+  }
+
+  .group-disk img{
+    padding: 0 0.8em 0 0;
+  }
+  
+  .group-disk li{
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .container-img-platform{
+    padding: 2em 0 0 0;
+  }
+
+  .platform{
+    color: #52BEDC;
+    padding: 2.6em 0 0 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    max-width: 16em;
+  }
+
+  .img-platform{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+  }
+
+  .containrer2{
+    display: grid;
+    grid-template-columns: 300px 200px 200px;
+    padding: 1.5em 0 0 0;
   }
