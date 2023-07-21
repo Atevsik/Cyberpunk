@@ -395,6 +395,24 @@ header{
 
   .containrer2{
     display: grid;
-    grid-template-columns: 300px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
     padding: 1.5em 0 0 0;
   }
+
+ .footer-cont{
+  display: flex;
+  justify-content: center;
+  padding: 1em 5em 0 0;
+ }
+
+ .click-foter{
+  padding: 2.2em 0 0 50em;
+ }
+
+ .click-foter a{
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+
+ }
